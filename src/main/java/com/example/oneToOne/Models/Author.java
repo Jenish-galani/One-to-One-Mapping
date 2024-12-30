@@ -15,13 +15,10 @@ public class Author {
     private String language;
 
     //Default constructor
-
-
     public Author() {
     }
 
     //Parameterized constructor
-
     public Author(Long id, String name, String language) {
         this.id = id;
         this.name = name;
